@@ -6,14 +6,14 @@ block content
         script.
             alert("#{errorMessage}")
     form(method="POST")
-        input(placeholder="Eamil", name="email", type="text", required)
-        input(placeholder="Name", name="name", type="text", required)
-        input(placeholder="Username", name="username", type="text", required)
-        input(placeholder="Password", name="password", type="text", required)
-        input(placeholder="Confirm Password", name="password2", type="text", required)
-        input(placeholder="Location", name="location", type="text", required)
+        input(placeholder="이메일", name="email", type="text", required)
+        input(placeholder="이름", name="name", type="text", required)
+        input(placeholder="아이디", name="username", type="text", required)
+        input(placeholder="비밀번호", name="password", type="text", required)
+        input(placeholder="비밀번호 확인", name="password2", type="text", required)
+        input(placeholder="지역", name="location", type="text", required)
         input(type="submit", value="Join")
     hr  
     div 
-        span Already have an account?
-        a(href="/login") Log in now &rarr;
+        span 이미 계정을 가지고 계시다면.. 
+        a(href="/login") 지금 로그인하기 &rarr;

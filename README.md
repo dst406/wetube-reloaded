@@ -25,3 +25,4 @@ MVP.css
 mongoDB
 mongoose
 bycrypt
+dotenv
