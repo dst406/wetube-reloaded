@@ -26,3 +26,12 @@ mongoDB
 mongoose
 bycrypt
 dotenv
+multer
+webpack
+webpack-cli
+babel-loader
+sass-loader
+css-loader
+MiniCssExtractPlugin
+regenerator-runtime
+express-flash
